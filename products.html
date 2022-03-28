@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website - Sari-sari Products</title>
+    <!-- Link to css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+<!-- Nav -->
+  <div class="container">
+       <div class="navbar">
+            <a href="index.html" class="logo">Tomas Store</a>
+            <nav>
+              <ul id="MenuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="account.html">Account</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html"><i class='bx bx-shopping-bag' id="cart-icon"></i></a>
+            <img src="images/menu.jpg" class="menu-icon"
+            onclick="menutoggle()">
+       </div>
+  </div>
+</header>
+
+<!-- Shop -->
+<div class="prod">
+    <section class="shop container">
+        <h2 class="section-title">Sari-sari Products</h2>
+        <!-- Content -->
+        <div class="shop-content">
+             <!-- Box 1 -->
+             <div class="product-box">
+                  <img src="images/product1.jpg" alt="" class="product-img">
+                  <h2 class="product-title">C2</h2>
+                  <span class="price">₱10.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 2 -->
+             <div class="product-box">
+                  <img src="images/product2.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Milo-Single</h2>
+                  <span class="price">₱8.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 3 -->
+             <div class="product-box">
+                  <img src="images/product3.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Royal-Lemon</h2>
+                  <span class="price">₱10.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 4 -->
+             <div class="product-box">
+                  <img src="images/product4.jpg" alt="" class="product-img">
+                  <h2 class="product-title">YipYap</h2>
+                  <span class="price">₱3.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 5 -->
+             <div class="product-box">
+                  <img src="images/product5.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Koko Krunch</h2>
+                  <span class="price">₱8.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 6 -->
+             <div class="product-box">
+                  <img src="images/product6.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Eight O'clock-Mango</h2>
+                  <span class="price">₱22.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 7 -->
+             <div class="product-box">
+                  <img src="images/product7.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Nestea-Lemon</h2>
+                  <span class="price">₱22.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 8 -->
+             <div class="product-box">
+                  <img src="images/product8.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Royal-Orange</h2>
+                  <span class="price">₱10.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 9 -->
+             <div class="product-box">
+                  <img src="images/product9.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Bear Brand 320g</h2>
+                  <span class="price">₱130.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+             <!-- Box 10 -->
+             <div class="product-box">
+                  <img src="images/product10.jpg" alt="" class="product-img">
+                  <h2 class="product-title">Milo-Twin Pack</h2>
+                  <span class="price">₱15.00</span>
+                  <i class='bx bx-shopping-bag add-cart'></i>
+             </div>
+        </div>
+    </section>
+            <div class="page-btn">
+                 <span><a href="products.html">1</a></span>
+                 <span><a href="products-page2.html">2</a></span>
+                 <span><a href="products-page3.html">3</a></span>
+                 <span><a href="products-page4.html">4</a></span>
+                 <span><a href="products-nextpage.html">&#8594;</a></span>
+            </div>
+       </div>
+</div>
+
+<!-- Footer -->
+       <div class="footer">
+            <div class="container">
+                 <div class="row">
+                      <div class="footer-col-1">
+                           <img src="images/logo.jpg">
+                           <p>Our purpose is to provide good products and
+                           best service for our customers.</p>
+                      </div>
+                      <div class="footer-col-2">
+                           <h3>Follow us on:</h3>
+                           <ul>
+                               <li><a href="https://www.facebook.com/angelicajoan.responso/">Facebook</a></li>
+                               <li><a href="https://twitter.com/AngelJelican">Twitter</a></li>
+                           </ul>
+                      </div>
+                 </div>
+                 <hr>
+                 <p class="copyright">Copyright 2003. =TOMAS STORE=</p>
+            </div>
+       </div>
+
+<!-- js for toggle menu -->
+       <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                   {
+                        MenuItems.style.maxHeight = "200px";
+                   }
+                else
+                   {
+                        MenuItems.style.maxHeight = "0px";
+                   }
+            }
+       </script>
+
+</body>
+</html>
